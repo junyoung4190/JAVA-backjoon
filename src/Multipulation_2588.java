@@ -8,8 +8,8 @@ public class Multipulation_2588 {
         int B = scanner.nextInt();
 
         System.out.println(A * (B % 10));
-        System.out.println(A * ((B % 100 / 10));
-        System.out.println(A * ((B / 100));
+        System.out.println(A * (B % 100 / 10));
+        System.out.println(A * (B / 100));
         System.out.println(A * B);
     }
 }
